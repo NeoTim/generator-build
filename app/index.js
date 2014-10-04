@@ -8,6 +8,8 @@ var chalk = require('chalk');
 var wiredep = require('wiredep');
 
 
+
+
 var AngularFullstackGenerator = yeoman.generators.Base.extend({
 
   init: function () {
