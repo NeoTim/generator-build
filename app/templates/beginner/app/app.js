@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('<%= scriptAppName %>', [
+    .module('app', [
       'ui.router'])
     .config( States );
 

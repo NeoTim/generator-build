@@ -1,0 +1,93 @@
+<div class="blog-post">
+  <h2 class="blog-post-title">Understanding the Code Base</h2>
+  <p class="blog-post-meta">October 2014 by <a href="#">Joel<strong>Cox</strong></a></p>
+
+  <p></p>
+  <hr>
+
+  <blockquote>
+    <p><strong>Notice the new file structure</strong></p>
+  </blockquote>
+  <p>We have several new files that may seem sompletely unfamiliar!</p>
+  <p>No worries, the are not that harmful, and shouldn't stress you out.</p>
+  <p>The majority of the files help you with you development evironment.</p>
+  <ul>
+    <li><strong>Moved Files</strong>
+      <ul>
+        <li>Moved <strong>.bowerrc</strong> outside the client directory.</li>
+        <li>Moved <strong>.editorconfig</strong> outside the client directory.</li>
+        <li>Moved <strong>bower.json</strong> outside the client directory.</li>
+        <li>Moved <strong>package.json</strong> outside the client directory.</li>
+      </ul>
+    </li>
+    <li><strong>Client</strong>
+      <ul>
+        <li><strong>.htaccess</strong>
+          <ul>
+            <li>Povides apache with server access to your application, when you deploy.</li>
+          </ul>
+        </li>
+        <li><strong>.jshint</strong>
+          <ul>
+            <li>Allows task runners to run jshint on your code, to make sure you do not have syntax errors.</li>
+            <li>Also provides options for following a style rule. <i>John Papa's</i> "Style Guide" provides a nice configuration.</li>
+            <li>Don't worry about grabbing the .jshint from John Papa's style guide, It has already been integrated.</li>
+          </ul>
+        </li>
+        <li><strong>favicon.ico</strong>
+          <ul>
+            <li>This is the little Icon you see for different website on you tabs.</li>
+            <li>It is also the Icon you see for different website in your bookmarks.</li>
+            <li>You don't have ot do anything with it, Apache knows how to serve it up for you.</li>
+            <li>If you decide to make your own, it must be 20x20 pixels.</li>
+          </ul>
+        </li>
+        <li><strong>robots.txt</strong>
+          <ul>
+            <li>Allows you to set robot key words for web crallers</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><strong>Root Directory</strong>
+      <ul>
+        <li><strong>.gitattributes</strong>
+          <ul>
+            <li>This is set for github attributes</li>
+          </ul>
+        </li>
+        <li><strong>.gitignore</strong>
+          <ul>
+            <li>Anyhting you set in this file will be ignored when you commit and push to github.</li>
+            <li>Commonly ignored files are your build directories, node_modules, & bower components.</li>
+            <li>Don't worry about ignoring anything yet. We will discuss what need to be ignored later.</li>
+          </ul>
+        </li>
+        <li><strong>.travis.yml</strong>
+          <ul>
+            <li>Travis is a code coverage helper tool. It allows you to see your dependencie versions and other stuff.</li>
+            <li>Dont't worry about the travis.yml file quite yet</li>
+          </ul>
+        </li>
+        <li><strong>.yo-rc.json</strong>
+          <ul>
+            <li>Please do not remove this file. This contains important information for me to provide you with necessary informaition</li>
+            <li>If you remove this, you will have to start over!</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><strong>Don't Stress over the amount of unfamiliar files!</strong>
+      <ul>
+        <li>Even though we don't need half these files yet, It is best to get use to the being in you codebase.</li>
+        <li>Especially if you plan on developing professionally... you will see more files like this that are un familiar.</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<ul class="pager">
+  <li><a ui-sref="setup.six">Previouse</a></li>
+  <li><a ui-sref="setup.eight">Next</a></li>
+</ul>
+

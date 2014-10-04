@@ -1,0 +1,20 @@
+{
+  "name": "<%= _.slugify(_.humanize(appname)) %>",
+  "version": "0.0.0",
+  "main": "server/app.js",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "express": "^4.9.5"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "start": "node servers/server/app.js",
+    "test": "gulp test",
+    "update-webdriver": "node node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager update"
+  },
+  "private": true
+}
