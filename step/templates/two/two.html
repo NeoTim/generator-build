@@ -1,0 +1,44 @@
+<div class="blog-post">
+  <h2 class="blog-post-title">Understanding the Client</h2>
+  <!-- <p class="blog-post-meta">October 2014 by <a href="#">Joel<strong>Cox</strong></a></p> -->
+
+  <p></p>
+  <hr>
+
+  <blockquote>
+    <p><strong>Checkout the <i>app</i> directory</strong></p>
+  </blockquote>
+  <p>Notice how each directory has it's own controller and html view.</p>
+  <p>This is a common best practice. Usually you would put any services, factories, directives and styles and tests that belong to that specific state in the same directory.</p>
+  <ul>
+    <li><strong>app.js</strong>
+      <ul>
+        <li>This is the primary module of the angular application</li>
+        <li>This file must be included in the <i>index.html</i> before any of your angular code</li>
+        <li>This file should also be listed beneath any pre downloaded angular plugins.</li>
+      </ul>
+    </li>
+    <li><strong>main</strong>
+      <ul>
+        <li>The initail main state the app starts out at.</li>
+      </ul>
+    </li>
+    <li><strong>steps</strong>
+      <ul>
+        <li>The steps directory contains all the the steps you are currntly trying to go through.</li>
+      </ul>
+    </li>
+    <li><strong>templates</strong>
+      <ul>
+        <li>This directory contains all the shared html templates</li>
+        <li>For Example: the header, footer, sidebar are inlcuded in the index.html, though the ng-include directive</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<ul class="pager">
+  <li><a href="#/steps/one">Previouse</a></li>
+  <li><a href="#/steps/three">Next</a></li>
+</ul>
+

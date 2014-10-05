@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>NgGuide</title>
+
+    <!-- Bootstrap -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- styles -->
+    <link href="styles/app.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <div ng-include="'app/templates/menu.html'" class="blog-masthead"></div>
+
+    <div class="container">
+
+      <div ng-include="'app/templates/header.html'" class="blog-header"></div>
+
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+          <ui-view></ui-view>
+
+        </div>
+
+        <div ng-include="'app/templates/sidebar.html'" class="col-sm-3 col-sm-offset-1 blog-sidebar"></div>
+
+      </div>
+
+    </div>
+
+    <div ng-include="'app/templates/footer.html'" class="blog-footer"></div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+
+    <!-- App Scripts -->
+
+    <script src="app/app.js"></script>
+    <script src="app/controllers/sideBar.controller.js"></script>
+    <script src="app/states/main/main.controller.js"></script>
+    <script src="app/states/steps/steps.js"></script>
+    <script src="app/states/steps/one/one.js"></script>
+    <script src="app/states/steps/one/one.controller.js"></script>
+    <script src="app/states/steps/two/two.js"></script>
+    <script src="app/states/steps/two/two.controller.js"></script>
+ <!--    <script src="app/states/steps/three/three.controller.js"></script>
+    <script src="app/states/steps/four/four.controller.js"></script>
+    <script src="app/states/steps/five/five.controller.js"></script>
+    <script src="app/states/setup/setup.js"></script>
+    <script src="app/states/setup/six/six.controller.js"></script>
+    <script src="app/states/setup/seven/seven.controller.js"></script>
+    <script src="app/states/setup/eight/eight.controller.js"></script>
+    <script src="app/states/setup/nine/nine.controller.js"></script>
+    <script src="app/states/setup/ten/ten.controller.js"></script> -->
+
+    <!-- BODY -->
+    <!-- ENDBODY -->
+     <!-- build:js client/app/app.js -->
+     <!-- ednbuild -->
+
+</body>
+</html>
+
+

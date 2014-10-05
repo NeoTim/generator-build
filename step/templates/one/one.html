@@ -1,0 +1,57 @@
+<div class="blog-post">
+  <h2 class="blog-post-title">Understanding your File Structure</h2>
+  <!-- <p class="blog-post-meta">October 2014 by <a href="#">Joel<strong>Cox</strong></a></p> -->
+
+  <p>This Generator is provided as a way for you to learn how to properly structure your App Architecture, by following John Papas <i>Angularjs Style Guide</i>, and Google <i>Angular Style Guide</i></p>
+  <hr>
+
+  <blockquote>
+    <p><strong>Getting Started</strong></p>
+  </blockquote>
+  <p>Take a look at the current file structure</p>
+  <ul>
+    <li><strong>app</strong>
+      <ul>
+        <li>Contains all the Javascript Logic for the Angular Application</li>
+        <li>Also contains all the HTML views we will use thoughout our application.</li>
+      </ul>
+    </li>
+    <li><strong>bower_components</strong>
+      <ul>
+        <li>Contains all the bower components downloaded, and listed in the <strong>bower.json</strong> file.</li>
+      </ul>
+    </li>
+    <li><strong>styles</strong>
+      <ul>
+        <li>Contains all the app css styles</li>
+      </ul>
+    </li>
+    <li><strong>.bowerrc</strong>
+      <ul>
+        <li>This file tells bower where to place the install dependencies</li>
+        <li>For example: if you don't like using the word <i>bower_components</i> then change the name in .bowerrc</li>
+      </ul>
+    </li>
+    <li><strong>.editorconfig</strong>
+      <ul>
+        <li>Tells the current editor you are using, to use specific configurations</li>
+      </ul>
+    </li>
+    <li><strong>index.html</strong>
+      <ul>
+        <li>I am assuming you know what this file does...</li>
+        <li>Here is the page the contains the entire single page application.</li>
+      </ul>
+    </li>
+    <li><strong>package.json</strong>
+      <ul>
+        <li>Similar to <strong>bower.json</strong>, Howerver, it is for files install view npm</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<ul class="pager">
+  <li><a ui-sref="main">Home</a></li>
+  <li><a ui-sref="steps.two">Next</a></li>
+</ul>

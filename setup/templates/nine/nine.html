@@ -1,0 +1,58 @@
+<div class="blog-post">
+  <h2 class="blog-post-title">Making Things Connect</h2>
+  <!-- <p class="blog-post-meta">October 2014 by <a href="#">Joel<strong>Cox</strong></a></p> -->
+  <hr>
+
+  <blockquote>
+    <p><strong>Ok So the server is running!!</strong></p>
+  </blockquote>
+  <p>Currently we have the following</p>
+  <ul>
+    <li>A fulling functioning angular application.</li>
+    <li>Grabbing it's dependencies from bower.</li>
+    <li>Pretty much the entire app is inside the client directory.</li>
+    <li>All other script, styles, and view files are in the client/app directory.</li>
+    <li>We have a bunch of other unfamiliar files on the outside.</li>
+    <li>Finally we have a server.js file, serving up our app.</li>
+  </ul>
+  <blockquote>
+    <p><strong>Cool! so What is in our angular application?</strong></p>
+  </blockquote>
+  <p>I like to think of angular app architecture, as an object.</p>
+  <p>the directory names are the keys, and contents within is a bunch more objebcts.</p>
+  <p>This first key to the object is the app.js file.</p>
+  <ul>
+    <li>We have a root app object that all other files are connecting to.</li>
+    <li>Considering all the other files are connecting to the root app file... Shouln't the app.js file be the first app file loaded?</li>
+  </ul>
+  <blockquote>
+    <p><strong>So do we start biulding?</strong></p>
+    <p><strong>What do we?</strong></p>
+  </blockquote>
+  <p>What have your learned? What is your next intuition?</p>
+  <p>So maybe you do have an idea, or a bunch of ideas, But how to you implement those ideas form this point?</p>
+  <p>Here is a list of ideas that I can come up with</p>
+  <ul>
+    <li>Start trying to make calls to the server, from the client? Maybe HTTP?</li>
+    <li>Do you have a dataset in mind?</li>
+    <li>Do you have a database in mind in mind?</li>
+    <li>Have you ever heard of firebase?</li>
+    <li>Have you ever heard of NEO4J?</li>
+    <li>mongoDB is great for all sizes of datasets.</li>
+  </ul>
+  <blockquote>
+    <p><strong>And the list goes on and on and on. . . </strong></p>
+    <p><strong>Here is the plan.</strong></p>
+  </blockquote>
+  <p>All of those Ideas may seems great, However . . .</p>
+  <p>There is a problem we as developers have.</p>
+  <p>We just want to start coding and see results... Imidiately.</p>
+  <P>However, We can either spend 80% of our time debugging, connecting everything manually, making sure the server is running properly . . .</P>
+  <p>Or, we can let a task runner do the job.</p>
+</div>
+
+<ul class="pager">
+  <li><a ui-sref="setup.eight">Previouse</a></li>
+  <li><a ui-sref="setup.ten">Next</a></li>
+</ul>
+

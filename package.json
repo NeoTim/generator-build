@@ -39,7 +39,9 @@
     "generator-express": "^2.1.0",
     "generator-ng-component": "~0.0.4",
     "generator-ng-modules": "^1.0.1",
+    "glob": "^4.0.6",
     "grouped-queue": "^0.3.0",
+    "gulp-inject": "^1.0.2",
     "lodash": "^2.4.1",
     "wiredep": "~0.4.2",
     "yeoman-generator": "~0.17.0"
@@ -48,8 +50,8 @@
     "yo": ">=1.2.0"
   },
   "devDependencies": {
-    "event-stream": "^3.1.7",
     "chai": "^1.9.1",
+    "event-stream": "^3.1.7",
     "fs-extra": "^0.9.1",
     "grunt": "~0.4.1",
     "grunt-build-control": "git+https://github.com/DaftMonk/grunt-build-control",
@@ -59,12 +61,14 @@
     "grunt-mocha-test": "^0.11.0",
     "grunt-release": "~0.6.0",
     "load-grunt-tasks": "~0.2.0",
+    "map-stream": "^0.1.0",
     "marked": "~0.2.8",
     "mocha": "~1.21.0",
     "q": "^1.0.1",
     "semver": "~2.2.1",
     "shelljs": "^0.3.0",
-    "underscore.string": "^2.3.3"
+    "underscore.string": "^2.3.3",
+    "vinyl-fs": "^0.3.8"
   },
   "engines": {
     "node": ">=0.10.*",

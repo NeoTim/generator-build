@@ -1,0 +1,49 @@
+<div class="blog-post">
+  <h2 class="blog-post-title">Architecture</h2>
+  <!-- <p class="blog-post-meta">October 2014 by <a href="#">Joel<strong>Cox</strong></a></p> -->
+  <hr>
+
+  <blockquote>
+    <p><strong>Lets consider the application you are trying to build</strong></p>
+  </blockquote>
+  <p>Try to think of specific modules you may need?</p>
+  <p>By Modules, I mean what kind of states would you like to provide? Are you thinking about adding some directives? Or, You have no Idea?</p>
+  <p>Here are some besic examples</p>
+  <p>Consider a Chat application</p>
+  <ul>
+    <li><strong>states</strong>
+      <ul>
+        <li>users
+          <ul>
+            <li>users.controller</li>
+            <li>users.service</li>
+            <li>users.html</li>
+          </ul>
+        </li>
+        <li>rooms
+          <ul>
+            <li>rooms.controller</li>
+            <li>rooms.service</li>
+            <li>rooms.html</li>
+          </ul>
+        </li>
+        <li>account <i>Deals with any Authentication "Login, signup"</i>
+          <ul>
+            <li>account.controller</li>
+            <li>account.service</li>
+            <li>account.html</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>
+      If you notice... I am doing the same thing in this application with different states.
+    </li>
+  </ul>
+</div>
+
+<ul class="pager">
+  <li><a href="#/steps/three">Previouse</a></li>
+  <li><a href="#/steps/five">Next</a></li>
+</ul>
+
